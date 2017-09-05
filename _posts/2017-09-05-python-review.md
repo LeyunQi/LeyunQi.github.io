@@ -1,9 +1,9 @@
 --
 layout: post
-title:  "前端如何写一个精确的倒计时"
-categories: JavaScript
-tags:  countdown JavaScript
-author: HyG
+title:  "python基础"
+categories: language
+tags:  python
+author: Leyun Qi
 ---
 
 * content
