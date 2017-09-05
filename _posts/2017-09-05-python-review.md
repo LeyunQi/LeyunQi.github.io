@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "python基础"
 categories: language
