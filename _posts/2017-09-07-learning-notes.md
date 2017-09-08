@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "Java语言基础"
+categories: language
+tags:  java
+author: Leyun Qi
+---
+
+* content
+{:toc}
+
 # Java语言基础
 ## 2.1 关键字**
 - 用于定义访问权限修饰符的关键字
