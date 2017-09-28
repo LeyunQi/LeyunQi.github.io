@@ -8,9 +8,9 @@ author: Leyun Qi
 
 
 
-##Security and Authentication
+## Security and Authentication 
 
-###Week 1 Tutorial Q&A
+### Week 1 Tutorial Q&A 
 
 **1.Briefly explain the security services of confidentiality, integrity and availability.** (P19˜20)
 	
@@ -70,7 +70,7 @@ Cipher text: OA AO RU OH KH KP GC PK SB SE GD AO AY
 ****
 
  **6. Using Vigenere Cipher, encrypt the word "examination" using the key grades.**
- ![](file:///Users/leyunqi/Desktop/vigenere.png)
+
  **Solution key:** 
  
 	 key:         g r a d e s g r a d e   
@@ -106,10 +106,10 @@ The AES key is 4 words(128 bits), which is used for round 0. For round 1 - 10, t
 **10. A typical round of AES encryption consists of four stages(Substitution bytes, Shift Rows, Mix Columns and Add Round Key). Describe the functionality of each stage.**  
 
 **Solution key:**  
-_Substitute Bytes:_ Uses an S-box to perform block subsstution. Each of the 'state' bytes is split into two 4-bit values; these represent the column and row values of the S-box containing the new substitution value. 
-_Shift Rows:_ A simple permutation where the 'state' block is altered by re-arranging the bytes located on each of the four rows.
-_Mix Columns_: A substitution that makes used of arithmetic over GF(2ˆ8).
-Hence, each of the 'state' elements is updated using the product of elements of one row  and one column.
-_Add Round Key_: A simple bitwise XOR of the current block with a portion of the expanded key. The expanded key is obtained through the 'expansion algorithm'.
+**Substitute Bytes:** Uses an S-box to perform block subsstution. Each of the 'state' bytes is split into two 4-bit values; these represent the column and row values of the S-box containing the new substitution value.   
+**Shift Rows:** A simple permutation where the 'state' block is altered by re-arranging the bytes located on each of the four rows.
+**Mix Columns:** A substitution that makes used of arithmetic over GF(2ˆ8).
+Hence, each of the 'state' elements is updated using the product of elements of one row  and one column.  
+**Add Round Key:** A simple bitwise XOR of the current block with a portion of the expanded key. The expanded key is obtained through the 'expansion algorithm'.
 
 
