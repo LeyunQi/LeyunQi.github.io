@@ -6,12 +6,12 @@ tags:  code
 author: Leyun Qi
 ---
 
-* content
-{:toc}
+
 
 ##Security and Authentication
 
 ###Week 1 Tutorial Q&A
+
 **1.Briefly explain the security services of confidentiality, integrity and availability.** (P19˜20)
 	
 **Solution key:**
@@ -22,6 +22,8 @@ author: Leyun Qi
 
 **Availability:** Ensuring timely and reliable access to and use of information. A loss of availability is the disruption of access to or use of information or an information system.
 
+****
+
 **2. Consider a student attendance information system in which the students provide a password for accessing their accounts. Give examples of the security services thr system should provide in terms of confidentiality, integrity, access control and availibility.**
 
 **Solution key:**
@@ -31,11 +33,14 @@ author: Leyun Qi
   It must also limit access of various levels of data to the right users only; e.g. students can only access their own information, and instructors can access all students attendance records.  
   Availability of the server during the college working hours is important, and needs to withstand DoS attacks.
 
+****
+
 **3. Why is Caesar cipher subsititution technique vulnerable to a brute force cryptanalysis?**
 
 **Solution key:**  
 There are only 25 possible keys to try-very easy.
 
+****
 
 **4. Why is one-time pad scheme unbreakable theoretically? What are the practical problems of one-time pad?**
 
@@ -45,6 +50,7 @@ Practical problems of one-time pad are:
 1. the difficulty in generating truly random keys.  
 2. how to transmit and protect the random key.
 
+****
 
 **5. Construct a Playfair matrix with the key reason. Make a reasonable assumption about how to treat redundant letters in the key. Encrypt the message: See some light in the darkness.**. 
 
@@ -61,6 +67,7 @@ Matrix:
 SE ES OM EL IG HT IN TH ED AR KN ES SX   
 Cipher text: OA AO RU OH KH KP GC PK SB SE GD AO AY
 
+****
 
  **6. Using Vigenere Cipher, encrypt the word "examination" using the key grades.**
  ![](file:///Users/leyunqi/Desktop/vigenere.png)
@@ -70,6 +77,7 @@ Cipher text: OA AO RU OH KH KP GC PK SB SE GD AO AY
 	 plaintext:   e x a m i n a t i o n
 	 ciphertext:  KOAPMFGKIRR
 
+****
 
 **7. Define the term "block cipher" and "stream cipher"**
 
@@ -78,6 +86,7 @@ Cipher text: OA AO RU OH KH KP GC PK SB SE GD AO AY
 Stream Cipher is an cryptographic method that processes one input element at a time.  
 Block Cipher is a cryptographic method that processes a block of elements at a time.
 
+****
 
 **8. Briefly define the terms substitution and permutation.**
 
@@ -85,12 +94,14 @@ Block Cipher is a cryptographic method that processes a block of elements at a t
 In substitution, each plaintext element or group of elements is uniquely replaced by a corresponding ciphertext element or group of elements.  
 In permutation, a sequence of plaintext elements is replaced by a permutation of that sequence. That is, no elements are added or deleted or replaced in the sequence, rather the order in which the elements appear in the sequence is changed.
 
+****
 
 **9. What is the purpose of the key expansion algorithm used in AES?**
 
 **Solution key:**   
 The AES key is 4 words(128 bits), which is used for round 0. For round 1 - 10, the key expansion algorithm provides a new 4-word round key for each of the 10 rounds.
 
+****
 
 **10. A typical round of AES encryption consists of four stages(Substitution bytes, Shift Rows, Mix Columns and Add Round Key). Describe the functionality of each stage.**  
 
