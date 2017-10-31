@@ -20,4 +20,4 @@ A想和B进行密钥交换，获得一个新的密钥，于是A就通过B的公�
 引用自知乎，武杰，https://www.zhihu.com/question/25116415/answer/30135284  
 
 3. Diffie‐Hellman algorithm
-![](../images/WX20171031-201031@2x.png)
+![](http://oyoz58yqn.bkt.clouddn.com/image/jpg/WX20171031-201116@2x.png)
