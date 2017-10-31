@@ -1,10 +1,18 @@
-##Java Socket 编程
+---
+layout: post
+title:  "Java Socket 编程"
+categories: language
+tags:  socket 
+author: Leyun Qi
+---
+
+##  Java Socket 编程
 1. OSI七层模型  
 应用层、表示层、会话层、传输层、网络层、数据链路层、物理层
 2. TCP/IP 四层模型  
 应用层 传输层 网际层 主机至网络层  
 
-###TCP和UDP
+###  TCP和UDP
 **UDP**
    
 * 将数据及源和目的封装在数据包中，不需要建立连接  

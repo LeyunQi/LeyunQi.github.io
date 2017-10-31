@@ -6,7 +6,7 @@ tags:  RSA DH key transmission/exchange
 author: Leyun Qi
 ---
 
-###Security and Authentication RSA & Diffie‐Hellman 感悟
+###  Security and Authentication RSA & Diffie‐Hellman 感悟 
 
 1. 密钥协商(key establishment)包括“密钥传输”(key transmission)和“密钥交换”(key exchange)。  
 	
