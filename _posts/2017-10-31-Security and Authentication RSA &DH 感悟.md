@@ -45,4 +45,26 @@ A想和B进行密钥交换，获得一个新的密钥，于是A就通过B的公�
  **那么问题来了，当出现Man-in-the-middle-attack的时候怎么办？**  
  一开始我看到中间人攻击的过程也觉得很懵，Information system management只是讲了大致过程和结果，却没有讲具体方式。后来我整理了一下~大致就是这样。与之前不同的是，Eve选取了两个随机数作为private key，从而生成两个public key分别交与Alice and Bob并与之作key exchange。通过例子可以发现中间人攻击并没有办法预防，因此在实际应用中往往采用多种Authentication的方式如：Digital certificate。
  ![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-164853@2x.png)
+ ****
  
+##  欧拉φ函数 Euler’s Totient Function
+* Relatively Prime Numbers  互质  
+Relative primes is where two numbers don’t have a common divisor.e.g 10 and 11 are relative primes.
+* Euler's Totient Function
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-211232@2x.png)
+	* φ（1）= 1应该是硬性规定，与1互质的只有1本身  
+	* φ（p）= p-1也很好理解，除了质数本身，其余数均与质数互质
+	* 如果p,q不相等，φ（n）= φ(pq) = φ(p)* φ(q) = (p-1)*(q-1)，因为除p,q外,n再没有可分解的公因式了，因此除去这两个质数本身，其余数还是与n互质。
+	* 如果p,q相等，φ(n) = p(q-1),相当于两个相同的互质的数相乘，多减了一个质数因子，因此要加1.
+	* α^φ(n) ≡ 1（mod n）,证明参见百度百科，https://baike.baidu.com/item/%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86/891345?fr=aladdin
+
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-214254@2x.png)
+
+## RSA算法
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-220032@2x.png)
+
+* 从公式可以看出，m是message，c是ciphertext，e是Public key，所有收发消息的人都有，d是private key,只有收消息的人才有。不过我不太理解的是，解密时最终结果是m^ed mod n，这样就能知道message是什么了吗？欢迎讨论~
+
+****
+本文内容原创，未经作者允许不得转载
+****
