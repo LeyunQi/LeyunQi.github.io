@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Security and Authentication RSA & Diffie‐Hellman 感悟"
-categories: language
+categories: security and authentication 
 tags:  RSA DH key transmission/exchange
 author: Leyun Qi
 ---
@@ -66,5 +66,7 @@ Relative primes is where two numbers don’t have a common divisor.e.g 10 and 11
 * 从公式可以看出，m是message，c是ciphertext，e是Public key，所有收发消息的人都有，d是private key,只有收消息的人才有。不过我不太理解的是，解密时最终结果是m^ed mod n，这样就能知道message是什么了吗？欢迎讨论~
 
 ****
-本文内容原创，未经作者允许不得转载
+
+本文内容原创，未经作者允许不得转载  
+
 ****
