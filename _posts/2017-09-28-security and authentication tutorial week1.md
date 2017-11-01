@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Security and authentication week1 Q&A"
-categories: language
-tags:  code
+categories: security&&authentication
+tags:  week1 Q&A security
 author: Leyun Qi
 ---
 

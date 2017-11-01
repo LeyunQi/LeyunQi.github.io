@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Security and Authentication RSA & Diffie‐Hellman 感悟"
-categories: security and authentication 
+categories: security&&authentication 
 tags:  RSA DH key transmission/exchange
 author: Leyun Qi
 ---
