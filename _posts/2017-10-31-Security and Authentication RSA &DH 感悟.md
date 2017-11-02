@@ -63,7 +63,9 @@ Relative primes is where two numbers don’t have a common divisor.e.g 10 and 11
 **注意：如果此处n为质数，则φ(n) = n-1, 即φ(n) = n+1,用p替代n,式子可改写为：**   
 
 	α^p ≡ α (mod p)
+	
 这里继续补充一下费马小定理。
+
 ![](http://oyoz58yqn.bkt.clouddn.com/WX20171102-113940@2x.png)
 								
 
@@ -85,6 +87,7 @@ Relative primes is where two numbers don’t have a common divisor.e.g 10 and 11
 	* 对明文做计算得到密文 c = m^e mod (pq)
 	* 但反向计算由c，指数e求底数m却很难，除非知道陷门信息d
 
+****
 
 本文内容原创，未经作者允许不得转载  
 
