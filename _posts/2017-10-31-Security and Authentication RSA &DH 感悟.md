@@ -59,13 +59,32 @@ Relative primes is where two numbers don’t have a common divisor.e.g 10 and 11
 	* α^φ(n) ≡ 1（mod n）,证明参见百度百科，https://baike.baidu.com/item/%E6%AC%A7%E6%8B%89%E5%AE%9A%E7%90%86/891345?fr=aladdin
 
 ![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-214254@2x.png)
+根据条件可知作用域为a,n互质，即n可能是质数，也可能不是。	
+**注意：如果此处n为质数，则φ(n) = n-1, 即φ(n) = n+1,用p替代n,式子可改写为：**   
+
+	α^p ≡ α (mod p)
+这里继续补充一下费马小定理。
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171102-113940@2x.png)
+								
 
 ## RSA算法
 ![](http://oyoz58yqn.bkt.clouddn.com/WX20171101-220032@2x.png)
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171102-141145@2x.png)
 
-* 从公式可以看出，m是message，c是ciphertext，e是Public key，所有收发消息的人都有，d是private key,只有收消息的人才有。不过我不太理解的是，解密时最终结果是m^ed mod n，这样就能知道message是什么了吗？欢迎讨论~
+* 公式条件：
 
-****
+* #### p,q是相异质数，n = p·q，φ(n) = (p-1)(q-1)
+* #### 在φ(n)上探索一对信息，使得ed满足条件 e·d ≡ 1 mod φ(n) ∴ 易知，e·d = k*φ(n)+1
+* #### 对任意明文加密时，先分组为小于n的数m
+* 从公式可以看出，m是message，c是ciphertext，e是Public key，所有收发消息的人都有，d是private key,只有收消息的人才有。解密时最终结果是m^ed mod n，因此m = m^ed mod n, 我们来证明一下。
+
+### 证明解密过程
+![](http://oyoz58yqn.bkt.clouddn.com/WX20171102-140346@2x.png)
+
+* 实际上构造了一种指数乘幂运算的单向陷门函数
+	* 对明文做计算得到密文 c = m^e mod (pq)
+	* 但反向计算由c，指数e求底数m却很难，除非知道陷门信息d
+
 
 本文内容原创，未经作者允许不得转载  
 
