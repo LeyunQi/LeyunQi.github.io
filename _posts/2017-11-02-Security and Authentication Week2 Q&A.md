@@ -72,9 +72,9 @@ d = 27, C = 14
 d = 53, C = 57  
 
 * #### User A and B use the Diffie-Hellman key exchange technique with a common prime q = 71 and a primitive root α = 7
-* If user A has private key XA = 5, what is A's public key YA?
-* If user B has private key XB = 12, what is B's public key YB?  
-* What is the shared secret key B?  
+* #### If user A has private key XA = 5, what is A's public key YA?
+* #### If user B has private key XB = 12, what is B's public key YB?  
+* #### What is the shared secret key B?  
 Solution key:  
 YA = 51
 YB = 4  
