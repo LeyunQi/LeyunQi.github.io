@@ -32,8 +32,9 @@ author: Leyun Qi
 <h3>4)What the four requirements are for Kerberos? What mechanisms are used within Kerberos systems to archieve those requirements?
 </h3>
 
-<head>
-	<style>
+
+<table>
+<style>
 	html,body{font-family:Arial, Helvetica, sans-serif; font-size:18px} 
 	.tablelist{
 		border: 2px solid;
@@ -52,9 +53,6 @@ author: Leyun Qi
 	background-color:#9c89b8
 	}
 	</style>
-</head>
-<body>
-	<table>
 	<caption>Requirements and Mechanism of Keberos</caption>
 		<thead>  
 		   <tr class="even">  
@@ -91,7 +89,6 @@ author: Leyun Qi
 			</tr>
 		</tbody>		
 	</table>	
-</body>
 
 <h3>5) What is a public-key certificate?</h3>
 It is used to authenticate public-keys of users.<br>
