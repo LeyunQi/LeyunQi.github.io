@@ -34,24 +34,24 @@ author: Leyun Qi
 
 
 <table>
-<style>
-	html,body{font-family:Arial, Helvetica, sans-serif; font-size:18px} 
-	.tablelist{
-		border: 2px solid;
-		border-collapse: collapse;
-	} 
-	.tablelist{
-		border:1px solid;
-		width:100px;
-		text-align:center;
-		font-size:12px;
-	}
-	.odd{
-	background-color:#efc3e6
-	}
-	.even{
-	background-color:#9c89b8
-	}
+	<style>
+		html,body{font-family:Arial, Helvetica, sans-serif; font-size:18px} 
+		.tablelist{
+			border: 2px solid;
+			border-collapse: collapse;
+		} 
+		.tablelist{
+			border:1px solid;
+			width:100px;
+			text-align:center;
+			font-size:12px;
+		}
+		.odd{
+		background-color:#efc3e6
+		}
+		.even{
+		background-color:#9c89b8
+		}
 	</style>
 	<caption>Requirements and Mechanism of Keberos</caption>
 		<thead>  
@@ -88,7 +88,7 @@ author: Leyun Qi
 				</td>
 			</tr>
 		</tbody>		
-	</table>	
+</table>	
 
 <h3>5) What is a public-key certificate?</h3>
 It is used to authenticate public-keys of users.<br>
