@@ -8,10 +8,10 @@ author: Leyun Qi
 ##  Security and Authentication Week2 Q&A
 
 #### What is the difference between the public and private keys?
-* A user's private key is kept private and known only to the user. The private key can be used to encrypt a signature that can be verified by anyone with the public key.blic key 
+* A user's private key is kept private and known only to the user. The private key can be used to encrypt a signature that can be verified by anyone with the public key.
 * The user's public key is made available to others to use. The public key can be used to encrypt information that can only be decrypted by the possessor of the private key.
 
-#### If 20 people want to communicate using conventional encryption, how many keys are needed? And if they want to use public-key encrption, how many keys are needed?
+#### If 20 people want to communicate using conventional encryption, how many keys are needed? And if they want to use public-key encryption, how many keys are needed?
 * For conventional encryption: 20 * 19/2 or (N * (N-1)/2) [190 keys]
 * For public key encryption:40 keys(or a 20 pairs of keys per individual).
 
@@ -75,6 +75,7 @@ d = 53, C = 57
 * #### If user A has private key XA = 5, what is A's public key YA?
 * #### If user B has private key XB = 12, what is B's public key YB?  
 * #### What is the shared secret key B?  
+
 Solution key:  
 YA = 51
 YB = 4  
