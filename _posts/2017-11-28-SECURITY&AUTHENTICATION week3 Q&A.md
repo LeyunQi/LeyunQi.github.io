@@ -57,7 +57,7 @@ author: Leyun Qi
 		<thead>  
 		   <tr class="even">  
 		   		<th width="100" onclick="kw.tabSort('tab',0)">Requirement</th>  
-		   		<th width="100" onclick="kw.tabSort('tab',1)">Mechanism</th>   
+		   		<th width="100" oncuplick="kw.tabSort('tab',1)">Mechanism</th>   
 		   </tr>   
 	   </thead>  
 		<tbody>
